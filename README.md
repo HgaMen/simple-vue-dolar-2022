@@ -2,7 +2,7 @@
 
 ## Preview
 
-- [preview](https://extraordinary-kitten-e36430.netlify.app/)
+-   [preview](https://extraordinary-kitten-e36430.netlify.app/)
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -30,4 +30,19 @@ npm run dev
 
 ```sh
 npm run build
+```
+
+## prettierrc
+
+```
+{
+    "semi": true,
+    "tabWidth": 4,
+    "printWidth": 80,
+    "useTabs": false,
+    "singleQuote": false,
+    "trailingComma": "es5",
+    "bracketSameLine": true
+}
+
 ```

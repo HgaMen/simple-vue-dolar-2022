@@ -1,7 +1,9 @@
 <script setup>
 import IconDolar from '@/components/icons/IconDolar.vue';
 import IconUp from '@/components/icons/IconUp.vue';
-import IconDown from '@/components/icons/IconDown.vue';
+// import IconDown from '@/components/icons/IconDown.vue';
+
+defineProps(['name', 'date', 'valor']);
 </script>
 <template>
   <article
@@ -15,12 +17,12 @@ import IconDown from '@/components/icons/IconDown.vue';
     >
       <IconDolar class="w-3 fill-gray-100" />
     </div>
-    <h2 class="mt-5">Dolar</h2>
-    <h3 class="py-4 text-4xl">$850</h3>
+    <h2 class="mt-5">{{ name }}</h2>
+    <h3 class="py-4 text-4xl">{{ valor }}</h3>
     <p class="flex justify-center gap-1">
-      <!-- <IconUp class="w-2 fill-green-400" /> -->
-      <IconDown class="w-2 fill-red-500" />
-      <span>0.05%</span>
+      <IconUp class="w-2 fill-green-400" />
+      <!-- <IconDown class="w-2 fill-red-500" /> -->
+      <span>{{ date }}</span>
     </p>
   </article>
 </template>
