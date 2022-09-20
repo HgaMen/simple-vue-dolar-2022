@@ -1,8 +1,9 @@
-# api-test
+# API prueba dolar
 
 ## Preview
 
--   [preview](https://extraordinary-kitten-e36430.netlify.app/)
+-   [Api public](https://api-dolar-v26b.onrender.com/)
+-   [preview Frontend](https://extraordinary-kitten-e36430.netlify.app/)
 
 This template should help get you started developing with Vue 3 in Vite.
 
